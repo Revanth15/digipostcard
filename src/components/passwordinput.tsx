@@ -34,9 +34,9 @@ const PasswordModal: React.FC<PasswordModalProps> = ({ children }) => {
   const [submitting, setSubmitting] = useState<boolean>(false); 
 
   const hints = {
-    5: "Hint: It's a common word!",
-    10: "Hint: Think of a day of the week!",
-    15: "Hint: "
+    5: "Hint: Total number of minutes ends with a 2",
+    10: "Hint: The call duration was between 9-12 hours. Total minutes is 3 digits.",
+    15: "Hint: It was 2024 Q1"
   };
 
   useEffect(() => {
